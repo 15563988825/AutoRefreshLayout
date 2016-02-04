@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fiate.autorefresh.demo.MainActivity">
+
+    <com.fiate.autorefresh.AutoRefreshLayout
+        android:id="@+id/autoRefreshLayout"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:loadfaild_layout="@layout/test_load_faild_view"
+        app:refreshing_layout="@layout/test_loading_view"
+        app:touchtoload_view="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Hello World!" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img"
+            android:id="@+id/imageView" />
+        </com.fiate.autorefresh.AutoRefreshLayout>
+
+
+</RelativeLayout>

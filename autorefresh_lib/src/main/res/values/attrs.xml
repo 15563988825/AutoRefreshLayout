@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoRefreshLayout">
+        <attr name="touchtoload_view" format="reference"></attr>
+        <attr name="loadfaild_layout" format="reference"></attr>
+        <attr name="refreshing_layout" format="reference"></attr>
+    </declare-styleable>
+</resources>
